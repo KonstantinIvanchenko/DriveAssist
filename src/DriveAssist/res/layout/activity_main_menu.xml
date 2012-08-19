@@ -28,6 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center"
             android:layout_margin="10dp"
+            android:onClick="startLiveViewButtonClick"
             android:text="@+string/start_button_caption" />
 
         <Button
@@ -37,14 +38,6 @@
             android:layout_gravity="center_horizontal|center"
             android:layout_margin="10dp"
             android:text="@+string/settings_button_caption" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|center"
-            android:layout_margin="10dp"
-            android:text="Button" />
 
     </LinearLayout>
 

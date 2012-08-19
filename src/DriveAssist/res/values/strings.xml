@@ -7,5 +7,6 @@
     <string name="menu_caption">Welcome to Drive Assistant</string>
     <string name="start_button_caption">Start live video mode</string>
     <string name="settings_button_caption">Edit settings</string>
+    <string name="title_activity_live_view">Camera View</string>
 
 </resources>
