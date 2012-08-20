@@ -17,6 +17,8 @@ import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 import android.support.v4.app.NavUtils;
 
+import org.opencv.android.*;
+
 class TopView extends View {
     
 	private Paint p;
@@ -119,13 +121,13 @@ public class LiveViewActivity extends Activity implements SurfaceHolder.Callback
 
 				camera.startPreview();
 
-				/*camera.setPreviewCallback(new Camera.PreviewCallback() {
+				camera.setPreviewCallback(new Camera.PreviewCallback() {
 					
 					public void onPreviewFrame(byte[] data, Camera camera) 
 					{
+						
 					}
 				});
-				*/
 
 			} 
 		    catch (IOException e) 
